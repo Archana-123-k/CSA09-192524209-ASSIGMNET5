@@ -1,0 +1,9 @@
+﻿Unsafe login test
+Unsafe SQL: SELECT * FROM users WHERE id='admin' -- ' AND pwd='x'
+unsafeLogin(...) = true
+safeLogin(...) = false
+Validating bus-pass file: PartB\B2\damaged_passes.txt
+Accept line 1: P1001
+Reject line 2: wrong field count = 2
+Reject line 3: empty line
+Reject line 4: non-numeric amount => bad

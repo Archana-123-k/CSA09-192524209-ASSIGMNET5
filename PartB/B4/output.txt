@@ -1,0 +1,15 @@
+﻿Product: MySQL 8.0.46
+Driver: MySQL Connector/J mysql-connector-j-9.1.0 (Revision: cf2917ea44ae2e43a4514a33771035aa99de73bf)
+URL: jdbc:mysql://localhost:3307/pass_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+User: root@localhost
+Tables:
+  - bus_pass
+  - users
+  - sys_config
+Loaded valid rows: 2
+Rejected rows: 3
+REJECT -> 2: wrong field count -> BROKEN|FIELD|COUNT
+REJECT -> 3: invalid amount -> P1002|192311002|Bharat|7|Town Hall|2026-12-31|bad
+REJECT -> 4: empty line
+Migration committed. Valid rows inserted = 2
+final row count = 2

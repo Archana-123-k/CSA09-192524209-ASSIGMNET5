@@ -1,0 +1,10 @@
+mode,rows,elapsed_ms
+statement,1000,2364
+prepared,1000,2161
+batch,1000,42
+statement,10000,23544
+prepared,10000,21630
+batch,10000,221
+statement,100000,207342
+prepared,100000,221341
+batch,100000,1336

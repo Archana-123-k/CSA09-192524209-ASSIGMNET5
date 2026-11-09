@@ -1,0 +1,18 @@
+﻿Column metadata:
+pass_id => VARCHAR
+reg_no => VARCHAR
+name => VARCHAR
+route_no => INT
+amount => DOUBLE
+Statement -> 2364 ms
+PreparedStatement -> 2161 ms
+PreparedStatement+Batch -> 42 ms
+Statement -> 23544 ms
+PreparedStatement -> 21630 ms
+PreparedStatement+Batch -> 221 ms
+Statement -> 207342 ms
+PreparedStatement -> 221341 ms
+PreparedStatement+Batch -> 1336 ms
+Batch transaction test:
+Transaction rolled back due to invalid amount
+rows after invalid batch = 0
