@@ -1,5 +1,4 @@
 ﻿# CSA09-192425250-Assignment5
-Student: Yashaswini, Register No 192425250
 
 ## Java version
 java version "27" 2026-09-15

@@ -1,8 +1,5 @@
 # Assignment 5: Data Persistence Engineering, Files and Databases
 
-Student: Yashaswini
-Register No: 192425250
-
 ## Environment
 - Java: 27 (Temurin/OpenJDK)
 - MySQL: 8.0.46 Community Server
